@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "47488487274",
+    "project_id": "questions-a9434",
+    "storage_bucket": "questions-a9434.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47488487274:android:bbb083b7dea653cef75f13",
+        "android_client_info": {
+          "package_name": "com.yunes.questions"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47488487274-5ukb2j2jsqimp2c2e445ehrera818cug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsNqlXM8JJUjOJbmKoDPJ3LGvZBKgOhhs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47488487274-5ukb2j2jsqimp2c2e445ehrera818cug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
