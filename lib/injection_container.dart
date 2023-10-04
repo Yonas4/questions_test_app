@@ -20,6 +20,8 @@ import 'firebase_options.dart';
 
 final sl = GetIt.instance;
 
+
+///////
 Future<void> init() async {
 //! Features - posts
   await Firebase.initializeApp(
