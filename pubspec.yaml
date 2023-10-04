@@ -28,6 +28,8 @@ dependencies:
   http: ^0.13.5
   # Local cache
   shared_preferences: ^2.1.1
+  #responsive screen utils
+  flutter_screenutil:
 
 #  firebase
   cloud_firestore: ^4.9.2

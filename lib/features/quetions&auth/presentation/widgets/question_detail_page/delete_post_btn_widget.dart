@@ -3,8 +3,8 @@
 //
 // import '../../../../../core/util/snackbar_message.dart';
 // import '../../../../../core/widgets/loading_widget.dart';
-// import '../../bloc/add_delete_update_post/add_delete_update_quetion_bloc.dart';
-// import '../../pages/posts_page.dart';
+// import '../../bloc/add_delete_update_post/add_update_users_bloc.dart';
+// import '../../pages/question_page.dart';
 // import 'delete_dialog_widget.dart';
 //
 // class DeletePostBtnWidget extends StatelessWidget {

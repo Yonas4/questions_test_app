@@ -8,5 +8,5 @@ abstract class UserRepository {
 
   Future<Either<Failure, Unit>> updateUser(UserData userData);
 
-  Future<Either<Failure, Unit>> addUser(UserData userData);
+  Future<Either<Failure, Unit>> addUser( );
 }

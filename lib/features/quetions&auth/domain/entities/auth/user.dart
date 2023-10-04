@@ -7,8 +7,8 @@ class UserData extends Equatable {
   final String email;
   final String photourl;
   final String rate;
-  final String fcmtoken;
-  final Timestamp addtime;
+  final bool isTested;
+  final String addtime;
 
   const UserData(
       {required this.id,
@@ -16,10 +16,10 @@ class UserData extends Equatable {
       required this.email,
       required this.photourl,
       required this.rate,
-      required this.fcmtoken,
+      required this.isTested,
       required this.addtime});
 
   @override
   List<Object?> get props =>
-      [id, name, email, photourl, rate, fcmtoken, addtime];
+      [id, name, email, photourl,isTested, rate, addtime];
 }

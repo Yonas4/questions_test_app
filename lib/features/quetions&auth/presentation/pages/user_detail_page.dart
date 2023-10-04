@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../domain/entities/quetion.dart';
-import '../widgets/post_detail_page/post_detail_widget.dart';
+import '../widgets/question_detail_page/post_detail_widget.dart';
 
 class PostDetailPage extends StatelessWidget {
   final Quetion post;
@@ -20,7 +20,7 @@ class PostDetailPage extends StatelessWidget {
 
   AppBar _buildAppbar() {
     return AppBar(
-      title: Text("Post Detail"),
+      title: const Text("Post Detail"),
     );
   }
 

@@ -6,6 +6,7 @@ import 'delete_post_btn_widget.dart';
 
 class PostDetailWidget extends StatelessWidget {
   final Quetion quetion;
+
   const PostDetailWidget({
     Key? key,
     required this.quetion,
@@ -19,27 +20,27 @@ class PostDetailWidget extends StatelessWidget {
         children: [
           Text(
             quetion.answer,
-            style: TextStyle(
+            style: const TextStyle(
               fontSize: 20,
               fontWeight: FontWeight.bold,
             ),
           ),
-          Divider(
+          const Divider(
             height: 50,
           ),
           Text(
             quetion.question,
-            style: TextStyle(
+            style: const TextStyle(
               fontSize: 16,
             ),
           ),
-          Divider(
+          const Divider(
             height: 50,
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              UpdatePostBtnWidget(post: quetion),
+              // UpdatePostBtnWidget(post: quetion),
               // DeletePostBtnWidget(postId: post.id!)
             ],
           )
@@ -48,5 +49,3 @@ class PostDetailWidget extends StatelessWidget {
     );
   }
 }
-
-
